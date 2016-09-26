@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    font-weight: bold;
+}
+input {
+    padding: 7px;
+    border: 1px solid #ddd;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: right;
+}
+.btn {
+    display: inline-block;
+    width: 100px;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 6px;
+}
+.btn:hover {
+    opacity: 0.8;
+}
+#mizuho {
+    box-shadow: 0 4px 0 #070030;
+    background-color: #13007a;
+    color: white;
+}
+#nomura {
+    box-shadow: 0 4px 0 #791513;
+    background-color: #ca2420;
+    color: white;
+}
+#result {
+    padding: 20px;
+}
