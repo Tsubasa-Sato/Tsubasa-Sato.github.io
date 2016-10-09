@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>株の売買手数料(テーブル表示）</title>
+    <link rel="stylesheet" href="kabu.css">
+    <link rel="icon" type="image/jpg" href="icon.jpg">
+</head>
+<body>
+    <h1>株の売買手数料計算ツール</h1>
+    <p>全てインターネット取引の価格となります</p>
+    <p>約定代金 <input type="text" id="price" value="0"> 円</p>
+
+    <div id="btn">計算</div>
+    <div id="result"></div>
+
+    <table>
+        <tr>
+            <th>証券会社</th>
+            <th>手数料</th>
+        </tr>
+        <tr>
+            <td>みずほ証券</td>
+            <td><span id="mizuho"></span>円</td>
+        </tr>
+        <tr>
+            <td>野村證券</td>
+            <td><span id="nomura"></span>円</td>
+        </tr>
+        <tr>
+            <td>SBI証券</td>
+            <td><span id="sbi"></span>円</td>
+        </tr>
+    </table>
+
+    <script src="kabu-table.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    font-weight: bold;
+}
+input {
+    padding: 7px;
+    border: 1px solid #ddd;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: right;
+    border-radius: 6px;
+}
+#btn {
+    box-shadow: 0 4px 0 #070030;
+    background-color: #13007a;
+    color: white;
+    display: inline-block;
+    width: 100px;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 6px;
+}
+#btn:hover {
+    opacity: 0.8;
+}
+
+td, th{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px;
+}
+table {
+    display: inline-block;
+}
+th {
+    text-align: left;
+}
+td {
+    white-space: nowrap;
+}
+
+#result {
+    padding: 20px;
+}
