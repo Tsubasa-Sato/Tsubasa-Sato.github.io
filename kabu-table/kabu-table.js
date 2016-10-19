@@ -20,12 +20,18 @@
 
     // 計算結果の表示
     btn.onclick = function() {
-        mizuho();
-        nomura();
-        sbi();
-        mizuhoArea.innerHTML = mizuhoPrice;
-        nomuraArea.innerHTML = nomuraPrice;
-        sbiArea.innerHTML = sbiPrice;
+        const check = priceForm.value;
+        
+        if (check == 0){
+            alert('0円は入力できません！');
+        } else {
+            mizuho();
+            nomura();
+            sbi();
+            mizuhoArea.innerHTML = mizuhoPrice;
+            nomuraArea.innerHTML = nomuraPrice;
+            sbiArea.innerHTML = sbiPrice;
+        }
     }
 
     // みずほ証券の手数料計算
